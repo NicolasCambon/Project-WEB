@@ -1,0 +1,72 @@
+#jouer{width:550px;height:350px;position: absolute;top:10px;left:100px;text-align: center;background-color:#c99868;}
+
+#template{background-color:black;}
+
+#CenterScreen{position: relative; top: 30%;}
+#tableau1{width:550px;height:600px;position: absolute;top: 620px;left:100px;;background-color:#c99868;} 
+#tableauScore{position : relative; left:16%;}
+#tableauLettres{position : relative;left:10%;top:2%;}
+#motchercher{letter-spacing: 15px;}
+#drawPendu{width:550px;height:300px;position: absolute;top: 320px;left:100px;background-color:#c99868;}
+#canvasDraw{width:450px;height:250px;position: relative;top: 25px;left:50px;background-color:white;}
+#tableau2{width:550px;height:600px;position: absolute;top: 320px;left:100px;background-color:#c99868;}
+
+.Space{line-height: 5;}
+.Space2{line-height: 3;}
+.Space3{line-height: 2;}
+.inputs{border: 2px solid red;border-radius: 4px;text-align: center;
+color:gray;height: 40px;font-size: 25px;width:200px;}
+
+.Soustitre{font-weight: bold;  color:rgba(255, 217, 0, 0.658);font-family: Papyrus; font-size: 45px;}
+
+
+.titre{font-weight: bold;  color:rgba(255, 217, 0, 0.658);font-family: Papyrus; font-size: 70px;}
+
+.text{font-size: 30px; font-family: Papyrus;  color:rgba(255, 217, 0, 0.658);}
+.soustext{font-size: 25px; font-family: Papyrus;  color:rgba(255, 217, 0, 0.658);}
+.lettreArray{font-size: 24px;font-family: Papyrus; text-align: center; color: #fff;}
+.goodLetters{background-color:rgb(43, 207, 38);width:40px;height:40px;}
+.wrongLetters{background-color:rgba(255, 0, 0, 0.664);width:40px;height:40px;}
+
+.button{
+  width:200px;
+  height:40px;
+  display: inline-block;
+ 
+  font-size: 24px;
+  font-family: Papyrus;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:grey;
+  border: none;
+  border-radius: 5%;
+  box-shadow: 0 5px rgb(56, 55, 55);
+}
+
+.button:hover {background-color: cadetblue}
+
+.button:active {
+  background-color: cadetblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2{
+  width:40px;
+  height:40px;
+  display: inline-block;
+ 
+  font-size: 24px;
+  font-family: Papyrus;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:grey;
+  border: none;
+}
+.button2:hover {background-color: cadetblue}
